@@ -23,4 +23,4 @@ The raw message looks like this
 `<189>Dec  8 2016 07:02:39 4GT-MYHOSTNAME %%01SHELL/5/CMDRECORD(l)[31]:Record command information. (Task=Co0, Ip=**, User=admin, Command="log on", Result=Success)`
 
 After the extractor it looks like this
-![Alt](/screenshot.png "graylog_screenshot")
+![Alt](https://github.com/tverschuren/graylog-huawei-info-center-extractor/blob/master/screenshot.png "graylog_screenshot")
