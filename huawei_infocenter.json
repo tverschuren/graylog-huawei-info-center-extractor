@@ -1,0 +1,19 @@
+{
+  "extractors": [
+    {
+      "title": "huaweiInfocenter",
+      "extractor_type": "grok",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "",
+      "extractor_config": {
+        "grok_pattern": "\\<%{NOTSPACE:UNWANTED}\\>%{CISCOTIMESTAMP} %{HOSTNAME} %%%{WORD:program}\\/%{POSINT:severity}\\/%{WORD:type}\\(%{WORD:UNWANTED}\\)\\[%{POSINT:pid}\\]:%{GREEDYDATA:message}"
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    }
+  ],
+  "version": "2.1.0-SNAPSHOT"
+}
