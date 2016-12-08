@@ -8,6 +8,8 @@ This only works if no other devices send syslog to UDP/514.
 
 `iptables -t nat -A PREROUTING -i eth0 -p udp --dport 514 -j REDIRECT --to-port 11002`
 
+(You can run graylog as root to let it listen directly on port 514, then you would not need this NAT rule, but that's not recommended)
+
 ### Huawei router config
 The router(s) are configured like this
 
