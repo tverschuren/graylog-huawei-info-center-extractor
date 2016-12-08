@@ -1,2 +1,2 @@
-# graylog-huawei-info-center-extractor
-Graylog Huawei AR Router Syslog Extractor
+# Graylog Extractor for huawei AR Routers Info-center / Syslog
+Graylog Huawei AR Router info-center/Syslog Extractor
