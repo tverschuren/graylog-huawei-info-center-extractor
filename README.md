@@ -23,4 +23,4 @@ The raw message looks like this
 `<189>Dec  8 2016 07:02:39 4GT-MYHOSTNAME %%01SHELL/5/CMDRECORD(l)[31]:Record command information. (Task=Co0, Ip=**, User=admin, Command="log on", Result=Success)`
 
 After the extractor it looks like this
-![Alt](/2016-12-08 15_04_15-Graylog Web Interface.png "graylog_screenshot")
+![Alt](/screenshot.png "graylog_screenshot")
